@@ -2,19 +2,18 @@ import React from 'react'
 import './Projects.css'
 
 const Projects = () => {
-  // TODO: 填入实际项目数据
   const projects = [
     {
       id: 1,
-      name: '项目名称 1',
-      description: '一句话描述：这个项目解决了什么问题/为什么重要',
-      role: '我在这个项目中负责了数据分析和模型构建工作',
-      impact: '成果：提升效率XX%、准确率XX%、节省XX小时',
-      tech: ['Python', 'SQL', 'Machine Learning', 'Tableau'],
+      name: 'ICU Demand & Readmission Risk Forecasting',
+      description: '使用MIMIC数据预测ICU需求和72小时再入院风险，帮助医院进行资源规划和及时干预',
+      role: '开发了XGBoost模型预测12小时内ICU入院需求（AUC 0.96）和72小时再入院风险（AUC 0.72），整合了ED分流数据、用药特征工程和ICU停留时间分析',
+      impact: '成果：ICU入院预测模型AUC达0.96（召回率93%），再入院预测模型AUC 0.72，构建了完整的ICU床位需求预测框架',
+      tech: ['Python', 'XGBoost', 'Machine Learning', 'MIMIC-IV', 'Feature Engineering', 'SHAP'],
       links: {
+        presentation: '/docs/HealthcareProject_Final%20Presentation.pdf',
         github: '#',
-        demo: '#',
-        report: '#'
+        demo: '#'
       }
     },
     {
@@ -63,17 +62,22 @@ const Projects = () => {
               ))}
             </div>
             <div className="project-links">
-              {project.links.github !== '#' && (
+              {project.links.presentation && (
+                <a href={project.links.presentation} target="_blank" rel="noopener noreferrer" className="project-link">
+                  📄 View Presentation
+                </a>
+              )}
+              {project.links.github && project.links.github !== '#' && (
                 <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="project-link">
                   GitHub
                 </a>
               )}
-              {project.links.demo !== '#' && (
+              {project.links.demo && project.links.demo !== '#' && (
                 <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="project-link">
                   Demo
                 </a>
               )}
-              {project.links.report !== '#' && (
+              {project.links.report && project.links.report !== '#' && (
                 <a href={project.links.report} target="_blank" rel="noopener noreferrer" className="project-link">
                   Report
                 </a>
@@ -87,4 +91,3 @@ const Projects = () => {
 }
 
 export default Projects
-

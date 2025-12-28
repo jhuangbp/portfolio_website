@@ -82,12 +82,16 @@
 .project-link {
   color: var(--primary-color);
   font-weight: 600;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .project-link:hover {
   color: var(--secondary-color);
   text-decoration: underline;
+  transform: translateX(2px);
 }
 
 @media (max-width: 768px) {
@@ -95,4 +99,3 @@
     grid-template-columns: 1fr;
   }
 }
-
