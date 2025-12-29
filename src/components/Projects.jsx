@@ -18,15 +18,15 @@ const Projects = () => {
     },
     {
       id: 2,
-      name: '项目名称 2',
-      description: '一句话描述：这个项目解决了什么问题/为什么重要',
-      role: '我在这个项目中负责了数据分析和模型构建工作',
-      impact: '成果：提升效率XX%、准确率XX%、节省XX小时',
-      tech: ['Python', 'SQL', 'Machine Learning', 'Tableau'],
+      name: 'Predicting Movie Ratings from Multimodal Data',
+      description: '构建端到端多模态深度学习系统预测IMDb电影评分（1-10分），整合结构化元数据、文本摘要和海报图像，超越传统单一模态预测方法',
+      role: '开发多模态深度学习管道，整合TMDB、IMDb和BoxOfficeMojo数据源，设计并实现Residual MLP、FT-Transformer等多种架构，使用MPNet、ConvNeXt V2和DINOv2提取文本和图像特征',
+      impact: '成果：最佳模型（Residual MLP）验证RMSE达0.77，平均预测误差在±0.6 IMDb评分点内，深度学习模型显著超越XGBoost基线，多模态数据提升预测准确性',
+      tech: ['Python', 'PyTorch', 'XGBoost', 'Deep Learning', 'MPNet', 'ConvNeXt V2', 'DINOv2', 'Autoencoders', 'BeautifulSoup'],
       links: {
+        article: 'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
         github: '#',
-        demo: '#',
-        report: '#'
+        demo: '#'
       }
     },
     {
@@ -65,6 +65,11 @@ const Projects = () => {
               {project.links.presentation && (
                 <a href={project.links.presentation} target="_blank" rel="noopener noreferrer" className="project-link">
                   📄 View Presentation
+                </a>
+              )}
+              {project.links.article && (
+                <a href={project.links.article} target="_blank" rel="noopener noreferrer" className="project-link">
+                  📝 Read Article
                 </a>
               )}
               {project.links.github && project.links.github !== '#' && (
