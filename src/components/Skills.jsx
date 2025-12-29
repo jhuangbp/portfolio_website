@@ -2,27 +2,22 @@ import React from 'react'
 import './Skills.css'
 
 const Skills = () => {
-  // TODO: 填入实际技能数据
   const skillCategories = [
     {
-      category: 'Programming',
-      skills: ['Python', 'SQL', 'R', 'JavaScript']
+      category: 'Programming & Data',
+      skills: ['Python', 'SQL', 'PySpark', 'Excel VBA']
     },
     {
-      category: 'Data',
-      skills: ['Pandas', 'Spark', 'dbt', 'ETL']
+      category: 'Analytics & Modeling',
+      skills: ['XGBoost', 'Feature Engineering', 'Model Validation', 'SHAP Analysis']
     },
     {
-      category: 'Machine Learning',
-      skills: ['XGBoost', 'Scikit-learn', 'TensorFlow', 'PyTorch']
+      category: 'Visualization & GIS',
+      skills: ['Tableau', 'Esri ArcGIS']
     },
     {
-      category: 'BI Tools',
-      skills: ['Tableau', 'Power BI', 'Looker']
-    },
-    {
-      category: 'Cloud/Tools',
-      skills: ['Git', 'Docker', 'GCP', 'AWS']
+      category: 'Tools & Cloud',
+      skills: ['SAS', 'Google Cloud Platform', 'Git']
     }
   ]
 

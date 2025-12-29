@@ -8,31 +8,30 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            {/* TODO: 填入3-6行好读的自我介绍 */}
-            我是一名数据分析和商业智能专业人士，拥有波士顿大学商业分析硕士学位。
-            我热衷于将复杂的数据转化为有意义的商业洞察，帮助企业做出更好的决策。
+            我是一名专注于信用风险与商业分析的MSBA学生，目前就读于波士顿大学，预计2026年1月毕业。
+            过往在台湾最大银行兆丰国际商业银行负责零售信用风险建模，擅长用统计建模与机器学习提升风控成效。
           </p>
           <p>
-            目前我专注于数据驱动的解决方案，运用机器学习和统计分析来解决实际业务问题。
-            我擅长数据可视化、预测建模和商业智能分析，致力于通过技术创新提升业务价值。
+            我热衷将复杂数据转化为可行动洞察，曾以开源气象数据与ArcGIS打造获专利的地理风险模型，并在医疗分析竞赛中优化XGBoost模型进入前50名。
+            期待在数据分析、商业智能或风控领域发挥价值。
           </p>
         </div>
 
         <div className="about-highlights">
           <div className="highlight-card">
             <h3>目前状态</h3>
-            <p>波士顿大学 | 波士顿 | 可立即开始工作</p>
+            <p>波士顿大学 MSBA | 预计2026年1月毕业 | 可立即开始工作</p>
           </div>
           <div className="highlight-card">
             <h3>求职方向</h3>
-            <p>Data Analyst / Business Analyst / Data Scientist</p>
+            <p>Data Analyst / Business Analyst / Risk Analyst</p>
           </div>
           <div className="highlight-card">
             <h3>核心优势</h3>
             <ul>
-              <li>数据驱动决策能力</li>
-              <li>跨领域合作经验</li>
-              <li>技术专精与商业洞察结合</li>
+              <li>信用风险建模与特征筛选经验</li>
+              <li>跨职能协作推动数据驱动决策</li>
+              <li>结合统计、GIS与机器学习的技术专长</li>
             </ul>
           </div>
         </div>
