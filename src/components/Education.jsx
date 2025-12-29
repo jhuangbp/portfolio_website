@@ -2,31 +2,32 @@ import React from 'react'
 import './Education.css'
 
 const Education = () => {
-  // TODO: 填入实际教育背景数据
   const education = [
     {
       id: 1,
-      school: '波士顿大学',
-      degree: '商业分析硕士 (MSBA)',
-      period: '2022年 - 2024年',
-      gpa: 'GPA: 3.8/4.0',
+      school: 'Boston University, Questrom School of Business',
+      degree: 'M.S. in Business Analytics',
+      period: 'Expected Graduation: Jan 2026',
+      gpa: 'GPA: 3.5',
       courses: [
-        'Data Mining and Machine Learning',
-        'Business Intelligence',
-        'Advanced Analytics',
-        'Database Management',
-        'Statistical Methods'
+        'Advanced Analytics Topics (Neural Network)',
+        'Business Analytics',
+        'Data Mining and Machine Learning'
       ],
+      certificates: []
+    },
+    {
+      id: 2,
+      school: 'National Taiwan University',
+      degree: 'B.A. in Economics, Minor in Political Science',
+      period: 'Jan 2019',
+      gpa: '',
+      courses: [],
       certificates: []
     }
   ]
 
-  const certificates = [
-    // TODO: 填入实际证照数据
-    'AWS Certified Data Analytics',
-    'Google Data Analytics Certificate',
-    'SAS Certified Advanced Analytics Professional'
-  ]
+  const certificates = []
 
   return (
     <section id="education" className="education">

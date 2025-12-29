@@ -2,40 +2,37 @@ import React from 'react'
 import './Experience.css'
 
 const Experience = () => {
-  // TODO: 填入实际经历数据
   const experiences = [
     {
       id: 1,
-      company: '公司名称',
-      position: '职位名称',
-      period: '2023年 - 2024年',
-      location: '地点',
+      company: 'CTBC Bank (Largest Bank in Taiwan)',
+      position: 'Retail Credit Risk Analyst',
+      period: 'Jul 2020 – May 2023',
+      location: 'Taipei City, Taiwan',
       bullets: [
-        'Built / Improved / Automated... 使用XX工具/方法，产出了XX影响',
-        'Analyzed... 使用XX工具/方法，产出了XX影响',
-        'Developed... 使用XX工具/方法，产出了XX影响'
+        'Developed mortgage loss forecasting models with SAS Macros,筛选1.6万特征至10个关键变量，模型判别力(Gini)提升18%。',
+        '研究台风洪涝对房贷抵押品的影响，结合气象开放数据与ArcGIS打造台湾专利地理风险模型。',
+        '作为Management Associate独立负责3个房贷与信贷风险分析项目，提供数据驱动决策建议。'
       ]
     },
     {
       id: 2,
-      company: '公司名称',
-      position: '职位名称',
-      period: '2022年 - 2023年',
-      location: '地点',
+      company: 'Taipei Fubon Commercial Bank',
+      position: 'Institutional Credit Risk Analyst',
+      period: 'Jul 2019 – Jun 2020',
+      location: 'Taipei City, Taiwan',
       bullets: [
-        'Built / Improved / Automated... 使用XX工具/方法，产出了XX影响',
-        'Analyzed... 使用XX工具/方法，产出了XX影响'
+        '进行产业与财报分析，支持8笔企业融资案件，累计授信额度逾2亿美元。'
       ]
     },
     {
       id: 3,
-      company: '公司名称',
-      position: '职位名称',
-      period: '2021年 - 2022年',
-      location: '地点',
+      company: 'E.Sun Commercial Bank',
+      position: 'Credit Card Marketing Intern',
+      period: 'Jul 2018 – Aug 2018',
+      location: 'Taipei City, Taiwan',
       bullets: [
-        'Built / Improved / Automated... 使用XX工具/方法，产出了XX影响',
-        'Analyzed... 使用XX工具/方法，产出了XX影响'
+        '使用SQL对400万+客群执行RFM与cohort分析，为精准行销活动提供洞察。'
       ]
     }
   ]
