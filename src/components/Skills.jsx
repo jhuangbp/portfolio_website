@@ -4,20 +4,20 @@ import './Skills.css'
 const Skills = () => {
   const skillCategories = [
     {
-      category: 'Programming & Data',
+      category: 'Programming',
       skills: ['Python', 'SQL', 'PySpark', 'Excel VBA']
     },
     {
-      category: 'Analytics & Modeling',
-      skills: ['XGBoost', 'Feature Engineering', 'Model Validation', 'SHAP Analysis']
+      category: 'Analytics & Geographic Information System',
+      skills: ['SAS', 'Esri ArcGIS']
     },
     {
-      category: 'Visualization & GIS',
-      skills: ['Tableau', 'Esri ArcGIS']
+      category: 'Visualization',
+      skills: ['Tableau']
     },
     {
-      category: 'Tools & Cloud',
-      skills: ['SAS', 'Google Cloud Platform', 'Git']
+      category: 'Cloud',
+      skills: ['Google Cloud Platform', 'Git']
     }
   ]
 
