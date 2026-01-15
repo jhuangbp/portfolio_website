@@ -18,7 +18,6 @@ const Education = () => {
         'Business Analytics Toolbox (SQL + Tableau)',
         'Big Data Analytics (PySpark)'
       ],
-      certificates: []
     },
     {
       id: 2,
@@ -26,16 +25,13 @@ const Education = () => {
       degree: 'B.A. in Economics, Minor in Political Science',
       period: 'Aug 2014 ~ Jan 2019',
       gpa: '',
-      courses: [],
-      certificates: []
+      courses: []
     }
   ]
 
-  const certificates = []
-
   return (
     <section id="education" className="education">
-      <h2 className="section-title">Education & Certificates</h2>
+      <h2 className="section-title">Education</h2>
       <div className="education-container">
         {education.map((edu) => (
           <div key={edu.id} className="education-card">
@@ -57,24 +53,9 @@ const Education = () => {
             )}
           </div>
         ))}
-        
-        {certificates.length > 0 && (
-          <div className="certificates-section">
-            <h3 className="certificates-title">Certificates</h3>
-            <div className="certificates-list">
-              {certificates.map((cert, index) => (
-                <div key={index} className="certificate-item">
-                  <span className="certificate-icon">✓</span>
-                  <span>{cert}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </section>
   )
 }
 
 export default Education
-
