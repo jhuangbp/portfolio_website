@@ -7,12 +7,16 @@ const Education = () => {
       id: 1,
       school: 'Boston University, Questrom School of Business',
       degree: 'M.S. in Business Analytics',
-      period: 'Expected Graduation: Jan 2026',
-      gpa: 'GPA: 3.5',
+      period: 'Aug 2024 ~ Jan 2026',
+      gpa: 'GPA: 3.58 / 4.00',
       courses: [
         'Advanced Analytics Topics (Neural Network)',
-        'Business Analytics',
-        'Data Mining and Machine Learning'
+        'Unsupervised Machine Learning',
+        'Supervised Machine Learning',
+        'Machine Learning in Healthcare',
+        'Introduction to Data Analytics (Python)',
+        'Business Analytics Toolbox (SQL + Tableau)',
+        'Big Data Analytics (PySpark)'
       ],
       certificates: []
     },
@@ -20,7 +24,7 @@ const Education = () => {
       id: 2,
       school: 'National Taiwan University',
       degree: 'B.A. in Economics, Minor in Political Science',
-      period: 'Jan 2019',
+      period: 'Aug 2014 ~ Jan 2019',
       gpa: '',
       courses: [],
       certificates: []
