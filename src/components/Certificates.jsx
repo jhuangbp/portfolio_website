@@ -6,8 +6,8 @@ const Certificates = () => {
     {
       id: 1,
       name: 'SAS Certified Specialist: Base Programming Using SAS 9.4',
-      issuer: 'SAS',
-      date: '2024'
+      issued: 'Dec 2025',
+      credentialId: '522568756'
     }
   ]
 
@@ -21,8 +21,8 @@ const Certificates = () => {
             <div className="certificate-details">
               <h3 className="certificate-name">{cert.name}</h3>
               <div className="certificate-meta">
-                <span>{cert.issuer}</span>
-                <span>{cert.date}</span>
+                <span>Issued: {cert.issued}</span>
+                <span>Credential ID: {cert.credentialId}</span>
               </div>
             </div>
           </div>
