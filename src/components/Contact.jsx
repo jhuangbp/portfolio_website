@@ -17,9 +17,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // TODO: 实现表单提交逻辑（可以使用email服务或API）
-    console.log('Form submitted:', formData)
-    alert('感谢您的留言！我会尽快回复。')
+    const subject = `Portfolio contact from ${formData.name}`
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    const mailtoLink = `mailto:jhuangbp@bu.edu?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`
+    window.location.href = mailtoLink
     setFormData({ name: '', email: '', message: '' })
   }
 
@@ -32,7 +35,7 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-item">
               <strong>Email:</strong>
-              <a href="mailto:jhuangbp@gmail.com">jhuangbp@gmail.com</a>
+              <a href="mailto:jhuangbp@bu.edu">jhuangbp@bu.edu</a>
             </div>
             <div className="contact-item">
               <strong>LinkedIn:</strong>
@@ -105,4 +108,3 @@ const Contact = () => {
 }
 
 export default Contact
-
