@@ -37,6 +37,8 @@ const Navbar = () => {
           <li onClick={() => scrollToSection('projects')}>Projects</li>
           <li onClick={() => scrollToSection('experience')}>Experience</li>
           <li onClick={() => scrollToSection('skills')}>Skills</li>
+          <li onClick={() => scrollToSection('education')}>Education</li>
+          <li onClick={() => scrollToSection('certificates')}>Certificates</li>
           <li onClick={() => scrollToSection('contact')}>Contact</li>
         </ul>
 
@@ -58,4 +60,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
