@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         
         <ul className={`navbar-menu ${isMobileMenuOpen ? 'active' : ''}`}>
-          <li onClick={() => scrollToSection('about')}>About</li>
+          <li onClick={() => scrollToSection('about')}>关于我</li>
           <li onClick={() => scrollToSection('projects')}>Projects</li>
           <li onClick={() => scrollToSection('experience')}>Experience</li>
           <li onClick={() => scrollToSection('skills')}>Skills</li>
