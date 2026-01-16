@@ -5,6 +5,19 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: 'Predicting Movie Ratings from Multimodal Data',
+      description: 'Built a multimodal deep learning framework to predict IMDb movie ratings by integrating structured metadata, text summaries, and poster images.',
+      role: 'Implemented and compared multiple neural network architectures by extracting text and image features using MPNet, ConvNeXt V2, and DINOv2, with Residual MLP and FT-Transformer applied at the final inference stage.',
+      impact: 'Achieved an average prediction error within ±0.6 IMDb rating points on the validation set, demonstrating the effectiveness of deep learning for movie rating prediction.',
+      tech: ['Python', 'PyTorch', 'XGBoost', 'Deep Learning', 'MPNet', 'ConvNeXt V2', 'DINOv2', 'Autoencoders', 'BeautifulSoup'],
+      links: {
+        article: 'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
+        github: '#',
+        demo: '#'
+      }
+    },
+        {
+      id: 2,
       name: 'ICU Demand & Readmission Risk Forecasting',
       description: '使用MIMIC数据预测ICU需求和72小时再入院风险，帮助医院进行资源规划和及时干预',
       role: '开发了XGBoost模型预测12小时内ICU入院需求（AUC 0.96）和72小时再入院风险（AUC 0.72），整合了ED分流数据、用药特征工程和ICU停留时间分析',
@@ -12,19 +25,6 @@ const Projects = () => {
       tech: ['Python', 'XGBoost', 'Machine Learning', 'MIMIC-IV', 'Feature Engineering', 'SHAP'],
       links: {
         presentation: '/docs/HealthcareProject_Final%20Presentation.pdf',
-        github: '#',
-        demo: '#'
-      }
-    },
-    {
-      id: 2,
-      name: 'Predicting Movie Ratings from Multimodal Data',
-      description: '构建端到端多模态深度学习系统预测IMDb电影评分（1-10分），整合结构化元数据、文本摘要和海报图像，超越传统单一模态预测方法',
-      role: '开发多模态深度学习管道，整合TMDB、IMDb和BoxOfficeMojo数据源，设计并实现Residual MLP、FT-Transformer等多种架构，使用MPNet、ConvNeXt V2和DINOv2提取文本和图像特征',
-      impact: '成果：最佳模型（Residual MLP）验证RMSE达0.77，平均预测误差在±0.6 IMDb评分点内，深度学习模型显著超越XGBoost基线，多模态数据提升预测准确性',
-      tech: ['Python', 'PyTorch', 'XGBoost', 'Deep Learning', 'MPNet', 'ConvNeXt V2', 'DINOv2', 'Autoencoders', 'BeautifulSoup'],
-      links: {
-        article: 'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
         github: '#',
         demo: '#'
       }
