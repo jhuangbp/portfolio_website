@@ -8,12 +8,13 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            我是一名专注于信用风险与商业分析的MSBA学生，目前就读于波士顿大学，预计2026年1月毕业。
-            过往在台湾最大银行兆丰国际商业银行负责零售信用风险建模，擅长用统计建模与机器学习提升风控成效。
+            Hi, I am Jyun-Ru (Jin). I recently completed an M.S. in Business Analytics at Boston University’s Questrom School of Business. Previously, I spent nearly three years at CTBC Bank, Taiwan’s largest bank, as a Retail Credit Risk Analyst, where I developed internal loss forecasting models for mortgage and personal loans using SAS and SQL. Notably, I led a geospatial risk research project that integrated meteorological open data with internal mortgage data to quantify typhoon flood impacts on collateral, resulting in a patented geographic risk model in Taiwan.
           </p>
           <p>
-            我热衷将复杂数据转化为可行动洞察，曾以开源气象数据与ArcGIS打造获专利的地理风险模型，并在医疗分析竞赛中优化XGBoost模型进入前50名。
-            期待在数据分析、商业智能或风控领域发挥价值。
+            During my graduate studies, I developed a multimodal deep learning model in TensorFlow to estimate calories from food images and textual descriptions. This project integrated Python, SQL, and Google Cloud virtual machines. It represents the culmination of my graduate training in analytics and machine learning.
+          </p>
+          <p>
+            I am enthusiastic about applying my analytical skills and banking industry experience to drive data-driven innovation in business analytics and risk management.
           </p>
         </div>
 
