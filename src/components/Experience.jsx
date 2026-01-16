@@ -10,9 +10,9 @@ const Experience = () => {
       period: 'Jul 2020 – May 2023',
       location: 'Taipei City, Taiwan',
       bullets: [
-        'Developed mortgage loss forecasting models with SAS Macros,筛选1.6万特征至10个关键变量，模型判别力(Gini)提升18%。',
-        '研究台风洪涝对房贷抵押品的影响，结合气象开放数据与ArcGIS打造台湾专利地理风险模型。',
-        '作为Management Associate独立负责3个房贷与信贷风险分析项目，提供数据驱动决策建议。'
+        'Developed loss forecasting models for mortgage loans, streamlining the process by narrowing 16,000 predictors to 10 key variables with SAS Macros, and increasing model discrimination by 18% (measured by Gini coefficient).',
+        'Led research and modeling of typhoon flood impact on mortgage collateral by analyzing meteorological open data with ArcGIS (geographic information analysis software), resulting in a patented geographic risk model in Taiwan',
+        'Owned three risk analysis projects for mortgage and personal loans as a Management Associate, with one key finding successfully implemented after years of internal discussion.'
       ]
     },
     {
@@ -22,7 +22,8 @@ const Experience = () => {
       period: 'Jul 2019 – Jun 2020',
       location: 'Taipei City, Taiwan',
       bullets: [
-        '进行产业与财报分析，支持8笔企业融资案件，累计授信额度逾2亿美元。'
+        'Conducted industry and financial statement analyses to support credit work in the corporate lending business, accounting for 8 lending cases with a total credit exposure of over USD 100 million.',
+        'Modified Excel VBA financial forecasting models to expand applicability from large corporate clients to companies of various sizes and industries.'
       ]
     },
     {
@@ -32,7 +33,8 @@ const Experience = () => {
       period: 'Jul 2018 – Aug 2018',
       location: 'Taipei City, Taiwan',
       bullets: [
-        '使用SQL对400万+客群执行RFM与cohort分析，为精准行销活动提供洞察。'
+        'Supported targeted marketing initiatives for over 4 million customers using SQL databases, leveraging RFM (Recency, Frequency, Monetary) and cohort analysis to inform campaign strategies',
+        'Conducted credit card marketing research and designed a new UI layout for the credit card dashboard of the mobile banking app, which was officially adopted and implemented by the UI design team after my internship'
       ]
     }
   ]
