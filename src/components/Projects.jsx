@@ -18,10 +18,10 @@ const Projects = () => {
     },
         {
       id: 2,
-      name: 'ICU Demand & Readmission Risk Forecasting',
-      description: '使用MIMIC数据预测ICU需求和72小时再入院风险，帮助医院进行资源规划和及时干预',
-      role: '开发了XGBoost模型预测12小时内ICU入院需求（AUC 0.96）和72小时再入院风险（AUC 0.72），整合了ED分流数据、用药特征工程和ICU停留时间分析',
-      impact: '成果：ICU入院预测模型AUC达0.96（召回率93%），再入院预测模型AUC 0.72，构建了完整的ICU床位需求预测框架',
+      name: 'Real-Time Intense Care Unit Demand Forecasting for Hospital Capacity Planning',
+      description: 'Designed a comprehensive Intensive Care Unit (ICU) bed demand forecasting framework using MIMIC-IV data to support hospital ICU capacity and resource planning.',
+      role: 'Developed two independent XGBoost-based predictive models to estimate ICU inflow from the emergency department within 12 hours and ICU outflow via 72-hour readmission risk after ICU discharge.',
+      impact: 'Achieved predictive performance with AUCs of 0.96 for ICU inflow model and 0.72 for ICU outflow model, outperforming comparable models reported in prior literature.',
       tech: ['Python', 'XGBoost', 'Machine Learning', 'MIMIC-IV', 'Feature Engineering', 'SHAP'],
       links: {
         presentation: '/docs/HealthcareProject_Final%20Presentation.pdf',
