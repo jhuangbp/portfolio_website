@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'Built a multimodal deep learning framework to predict IMDb movie ratings by integrating structured metadata, text summaries, and poster images.',
       role: 'Implemented and compared multiple neural network architectures by extracting text and image features using MPNet, ConvNeXt V2, and DINOv2, with Residual MLP and FT-Transformer applied at the final inference stage.',
       impact: 'Achieved an average prediction error within ±0.6 IMDb rating points on the validation set, demonstrating the effectiveness of deep learning for movie rating prediction.',
-      tech: ['Python', 'PyTorch', 'XGBoost', 'Deep Learning', 'MPNet', 'ConvNeXt V2', 'DINOv2', 'Autoencoders', 'BeautifulSoup'],
+      tech: ['Python', 'PyTorch', 'Deep Learning', 'Media & Entertainment', 'Movie'],
       links: {
         article: 'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
         github: '#',
@@ -22,7 +22,7 @@ const Projects = () => {
       description: 'Designed a comprehensive Intensive Care Unit (ICU) bed demand forecasting framework using MIMIC-IV data to support hospital ICU capacity and resource planning.',
       role: 'Developed two independent XGBoost-based predictive models to estimate ICU inflow from the emergency department within 12 hours and ICU outflow via 72-hour readmission risk after ICU discharge.',
       impact: 'Achieved predictive performance with AUCs of 0.96 for ICU inflow model and 0.72 for ICU outflow model, outperforming comparable models reported in prior literature.',
-      tech: ['Python', 'XGBoost', 'Machine Learning', 'MIMIC-IV', 'Feature Engineering', 'SHAP'],
+      tech: ['Python', 'Machine Learning', 'Healthcare', 'Hospital', 'MIMIC-IV'],
       links: {
         presentation: '/docs/HealthcareProject_Final%20Presentation.pdf',
         github: '#',
