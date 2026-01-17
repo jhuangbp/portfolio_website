@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: '项目名称 3',
+      name: 'U.S. Military Base Slot Machine Revenue Explorer',
       description: '一句话描述：这个项目解决了什么问题/为什么重要',
       role: '我在这个项目中负责了数据分析和模型构建工作',
       impact: '成果：提升效率XX%、准确率XX%、节省XX小时',
