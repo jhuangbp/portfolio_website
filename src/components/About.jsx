@@ -11,7 +11,7 @@ const About = () => {
             Hi, I am Jyun-Ru (Jin). I recently completed an M.S. in Business Analytics at Boston University’s Questrom School of Business. Previously, I spent nearly three years at CTBC Bank, Taiwan’s largest bank, as a Retail Credit Risk Analyst, where I developed internal loss forecasting models for mortgage and personal loans using SAS and SQL. Notably, I led a geospatial risk research project that integrated meteorological open data with internal mortgage data to quantify typhoon flood impacts on collateral, resulting in a patented geographic risk model in Taiwan.
           </p>
           <p>
-            During my graduate studies, I developed a multimodal deep learning model in TensorFlow to estimate calories from food images and textual descriptions. This project integrated Python, SQL, and Google Cloud virtual machines. It represents the culmination of my graduate training in analytics and machine learning.
+            During my graduate studies, I developed a multimodal deep learning model to predict IMDb movie ratings using movie plot summaries and poster images, without relying on audience reviews or box office information. This project integrated Python and PyTorch and utilized cloud-based GPU acceleration, representing the culmination of my graduate training in analytics.
           </p>
           <p>
             I am enthusiastic about applying my analytical skills and banking industry experience to drive data-driven innovation in business analytics and risk management.
