@@ -20,19 +20,30 @@ const About = () => {
 
         <div className="about-highlights">
           <div className="highlight-card">
-            <h3>目前状态</h3>
-            <p>波士顿大学 MSBA | 预计2026年1月毕业 | 可立即开始工作</p>
+            <h3>Employment status</h3>
+            <p>Boston University — M.S. in Business Analytics | Graduated January 2026 | Available to start immediately</p>
           </div>
           <div className="highlight-card">
-            <h3>求职方向</h3>
-            <p>Data Analyst / Business Analyst / Risk Analyst</p>
-          </div>
-          <div className="highlight-card">
-            <h3>核心优势</h3>
+            <h3>Skills</h3>
             <ul>
-              <li>信用风险建模与特征筛选经验</li>
-              <li>跨职能协作推动数据驱动决策</li>
-              <li>结合统计、GIS与机器学习的技术专长</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Tableau</li>
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>SAS</li>
+              <li>PySpark</li>
+              <li>Esri ArcGIS</li>
+              <li>Google Cloud Platform</li>
+              <li>Excel VBA Programming</li>
+            </ul>
+          </div>
+          <div className="highlight-card">
+            <h3>Experiences</h3>
+            <ul>
+              <li>Credit risk modeling for Mortgage and Personal Loans</li>
+              <li>Led a geospatial risk research project that integrated internal and external data into a patented solution.</li>
+              <li>End-to-End Deep Learning framework development across two academic projects</li>
             </ul>
           </div>
         </div>
