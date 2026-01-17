@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -11,6 +11,19 @@ import Contact from './components/Contact'
 import './App.css'
 
 function App() {
+  useEffect(() => {
+    const datasetteUrl = 'https://ds-701-muckrock-data-liberation-project.onrender.com'
+    const controller = new AbortController()
+
+    fetch(datasetteUrl, {
+      mode: 'no-cors',
+      cache: 'no-store',
+      signal: controller.signal
+    }).catch(() => {})
+
+    return () => controller.abort()
+  }, [])
+
   return (
     <div className="App">
       <Navbar />
