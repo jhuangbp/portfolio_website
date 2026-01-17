@@ -21,11 +21,15 @@ const About = () => {
         <div className="about-highlights">
           <div className="highlight-card">
             <h3>Employment status</h3>
-            <p>Boston University — M.S. in Business Analytics | Expected January 2026 | Available to start immediately</p>
+            <ul className="check-list">
+              <li>Boston University — M.S. in Business Analytics</li>
+              <li>graduated in January 2026</li>
+              <li>Available to start immediately</li>
+            </ul>
           </div>
           <div className="highlight-card">
             <h3>Skills</h3>
-            <ul>
+            <ul className="skills-list">
               <li>Python</li>
               <li>SQL</li>
               <li>Tableau</li>
@@ -40,7 +44,7 @@ const About = () => {
           </div>
           <div className="highlight-card">
             <h3>Experiences</h3>
-            <ul>
+            <ul className="check-list">
               <li>Credit risk modeling for Mortgage and Personal Loans</li>
               <li>Led a geospatial risk research project that integrated internal and external data into a patented solution.</li>
               <li>End-to-End Deep Learning framework development across two academic projects</li>
