@@ -6,27 +6,34 @@ const Projects = () => {
     {
       id: 1,
       name: 'Predicting Movie Ratings from Multimodal Data',
-      description: 'Built a multimodal deep learning framework to predict IMDb movie ratings by integrating structured metadata, text summaries, and poster images.',
-      role: 'Implemented and compared multiple neural network architectures by extracting text and image features using MPNet, ConvNeXt V2, and DINOv2, with Residual MLP and FT-Transformer applied at the final inference stage.',
-      impact: 'Achieved an average prediction error within ±0.6 IMDb rating points on the validation set, demonstrating the effectiveness of deep learning for movie rating prediction.',
+      description:
+        'Built a multimodal deep learning framework to predict IMDb movie ratings by integrating structured metadata, text summaries, and poster images.',
+      role:
+        'Implemented and compared multiple neural network architectures by extracting text and image features using MPNet, ConvNeXt V2, and DINOv2, with Residual MLP and FT-Transformer applied at the final inference stage.',
+      impact:
+        'Achieved an average prediction error within ±0.6 IMDb rating points on the validation set, demonstrating the effectiveness of deep learning for movie rating prediction.',
       tech: ['Python', 'PyTorch', 'Deep Learning', 'Media & Entertainment', 'Movie'],
       links: {
-        article: 'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
+        article:
+          'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
         github: '#',
-        demo: '#'
+        rawData: '#'
       }
     },
-        {
+    {
       id: 2,
       name: 'Real-Time Intense Care Unit Demand Forecasting for Hospital Capacity Planning',
-      description: 'Designed a comprehensive Intensive Care Unit (ICU) bed demand forecasting framework using MIMIC-IV data to support hospital ICU capacity and resource planning.',
-      role: 'Developed two independent XGBoost-based predictive models to estimate ICU inflow from the emergency department within 12 hours and ICU outflow via 72-hour readmission risk after ICU discharge.',
-      impact: 'Achieved predictive performance with AUCs of 0.96 for ICU inflow model and 0.72 for ICU outflow model, outperforming comparable models reported in prior literature.',
+      description:
+        'Designed a comprehensive Intensive Care Unit (ICU) bed demand forecasting framework using MIMIC-IV data to support hospital ICU capacity and resource planning.',
+      role:
+        'Developed two independent XGBoost-based predictive models to estimate ICU inflow from the emergency department within 12 hours and ICU outflow via 72-hour readmission risk after ICU discharge.',
+      impact:
+        'Achieved predictive performance with AUCs of 0.96 for ICU inflow model and 0.72 for ICU outflow model, outperforming comparable models reported in prior literature.',
       tech: ['Python', 'Machine Learning', 'Healthcare', 'Hospital', 'MIMIC-IV'],
       links: {
         presentation: '/docs/HealthcareProject_Final%20Presentation.pdf',
         github: '#',
-        demo: '#'
+        rawData: 'https://physionet.org/content/mimiciv/3.1/'
       }
     },
     {
@@ -38,9 +45,9 @@ const Projects = () => {
       tech: ['Python', 'SQL', 'Machine Learning', 'Tableau'],
       links: {
         datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
-        github: '#',
-        demo: '#',
-        report: '#'
+        github: 'https://github.com/BU-Spark/ds-muckrock-liberation',
+        report: '#',
+        rawData: 'https://www.data-liberation-project.org/datasets/dod-army-slot-machines/'
       }
     }
   ]
@@ -48,48 +55,91 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <h2 className="section-title">Featured Projects</h2>
+
       <div className="projects-grid">
         {projects.map((project) => (
           <div key={project.id} className="project-card">
             <h3 className="project-name">{project.name}</h3>
+
             <p className="project-description">{project.description}</p>
             <p className="project-role">{project.role}</p>
+
             <div className="project-impact">
-              <strong>成果：</strong>{project.impact}
+              <strong>成果：</strong>
+              {project.impact}
             </div>
+
             <div className="project-tech">
               {project.tech.map((tech, index) => (
-                <span key={index} className="tech-tag">{tech}</span>
+                <span key={index} className="tech-tag">
+                  {tech}
+                </span>
               ))}
             </div>
+
             <div className="project-links">
               {project.links.presentation && (
-                <a href={project.links.presentation} target="_blank" rel="noopener noreferrer" className="project-link">
+                <a
+                  href={project.links.presentation}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
                   📄 View Presentation
                 </a>
               )}
+
               {project.links.article && (
-                <a href={project.links.article} target="_blank" rel="noopener noreferrer" className="project-link">
+                <a
+                  href={project.links.article}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
                   📝 Read Article
                 </a>
               )}
+
               {project.links.github && project.links.github !== '#' && (
-                <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="project-link">
+                <a
+                  href={project.links.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
                   GitHub
                 </a>
               )}
-              {project.links.demo && project.links.demo !== '#' && (
-                <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="project-link">
-                  Demo
+
+              {project.links.rawData && project.links.rawData !== '#' && (
+                <a
+                  href={project.links.rawData}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  📦 Raw Data
                 </a>
               )}
+
               {project.links.report && project.links.report !== '#' && (
-                <a href={project.links.report} target="_blank" rel="noopener noreferrer" className="project-link">
+                <a
+                  href={project.links.report}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
                   Report
                 </a>
               )}
+
               {project.links.datasette && project.links.datasette !== '#' && (
-                <a href={project.links.datasette} target="_blank" rel="noopener noreferrer" className="project-link">
+                <a
+                  href={project.links.datasette}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
                   🔎 View Datasette
                 </a>
               )}
