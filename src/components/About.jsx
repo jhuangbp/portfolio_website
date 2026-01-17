@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Hi, I am Jyun-Ru (Jin). I am currently completing an M.S. in Business Analytics at Boston University’s Questrom School of Business, expected in January 2026. Previously, I spent nearly three years at CTBC Bank, Taiwan’s largest bank, as a Retail Credit Risk Analyst, where I developed internal loss forecasting models for mortgage and personal loans using SAS and SQL. Notably, I led a geospatial risk research project that integrated meteorological open data with internal mortgage data to quantify typhoon flood impacts on collateral, resulting in a patented geographic risk model in Taiwan.
+            Hi, I am Jyun-Ru (Jin). I recently completed an M.S. in Business Analytics at Boston University’s Questrom School of Business. Previously, I spent nearly three years at CTBC Bank, Taiwan’s largest bank, as a Retail Credit Risk Analyst, where I developed internal loss forecasting models for mortgage and personal loans using SAS and SQL. Notably, I led a geospatial risk research project that integrated meteorological open data with internal mortgage data to quantify typhoon flood impacts on collateral, resulting in a patented geographic risk model in Taiwan.
           </p>
           <p>
             During my graduate studies, I developed a multimodal deep learning model in TensorFlow to estimate calories from food images and textual descriptions. This project integrated Python, SQL, and Google Cloud virtual machines. It represents the culmination of my graduate training in analytics and machine learning.
