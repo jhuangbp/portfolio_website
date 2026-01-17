@@ -37,6 +37,7 @@ const Projects = () => {
       impact: '成果：提升效率XX%、准确率XX%、节省XX小时',
       tech: ['Python', 'SQL', 'Machine Learning', 'Tableau'],
       links: {
+        datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
         github: '#',
         demo: '#',
         report: '#'
@@ -85,6 +86,11 @@ const Projects = () => {
               {project.links.report && project.links.report !== '#' && (
                 <a href={project.links.report} target="_blank" rel="noopener noreferrer" className="project-link">
                   Report
+                </a>
+              )}
+              {project.links.datasette && project.links.datasette !== '#' && (
+                <a href={project.links.datasette} target="_blank" rel="noopener noreferrer" className="project-link">
+                  🔎 View Datasette
                 </a>
               )}
             </div>
