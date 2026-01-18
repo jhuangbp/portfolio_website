@@ -46,7 +46,7 @@ const Projects = () => {
       links: {
         datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
         github: 'https://github.com/BU-Spark/ds-muckrock-liberation',
-        report: '#',
+        report: '/docs/Muckrock%20Final%20Report.pdf',
         rawData: 'https://www.data-liberation-project.org/datasets/dod-army-slot-machines/'
       }
     }
@@ -140,7 +140,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  🔎 View Datasette
+                  🔎 View Datasette Visualization
                 </a>
               )}
             </div>
