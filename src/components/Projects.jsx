@@ -32,6 +32,8 @@ const Projects = () => {
       tech: ['Python', 'Machine Learning', 'Healthcare', 'Hospital', 'MIMIC-IV'],
       links: {
         presentation: '/docs/HealthcareProject_Final%20Presentation.pdf',
+        report:
+          'https://raw.githubusercontent.com/jhuangbp/portfolio_website/main/docs/HealthcareProject_Final%20Report.pdf',
         github: '#',
         rawData: 'https://physionet.org/content/mimiciv/3.1/'
       }
@@ -46,7 +48,9 @@ const Projects = () => {
       links: {
         datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
         github: 'https://github.com/BU-Spark/ds-muckrock-liberation',
-        report: '/docs/Muckrock%20Final%20Report.pdf',
+        // Use GitHub raw URL so the browser opens a PDF viewer (instead of the GitHub file page)
+        report:
+          'https://raw.githubusercontent.com/jhuangbp/portfolio_website/main/docs/Muckrock%20Final%20Report.pdf',
         rawData: 'https://www.data-liberation-project.org/datasets/dod-army-slot-machines/'
       }
     }
