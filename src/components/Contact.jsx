@@ -40,7 +40,7 @@ const Contact = () => {
             <div className="contact-item">
               <strong>LinkedIn:</strong>
               <a 
-                href="https://www.linkedin.com/in/jyunru-huang" 
+                href="https://www.linkedin.com/in/jyun-ru-huang-tw/" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
