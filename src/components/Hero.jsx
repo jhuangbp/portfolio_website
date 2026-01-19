@@ -56,7 +56,7 @@ const Hero = () => {
                 GitHub
               </a>
               <a 
-                href="https://www.linkedin.com/in/jyunru-huang" 
+                href="https://www.linkedin.com/in/jyun-ru-huang-tw/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-outline"
