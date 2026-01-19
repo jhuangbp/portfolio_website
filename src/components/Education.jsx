@@ -36,21 +36,21 @@ const Education = () => {
     },
     {
       id: 3,
-      school: 'Hong Kong University of Science and Technology',
-      logo: '/logo/HKUST.svg',
-      logoAlt: 'Hong Kong University of Science and Technology logo',
-      degree: 'Exchange Student Programme, School of Business and Management',
-      period: 'Aug 2018 ~ Dec 2018',
-      gpa: '',
-      courses: []
-    },
-    {
-      id: 4,
       school: 'National Taiwan University',
       logo: '/logo/National_Taiwan_University.png',
       logoAlt: 'National Taiwan University logo',
       degree: 'B.A. in Economics, Minor in Political Science',
       period: 'Aug 2014 ~ Jan 2019',
+      gpa: '',
+      courses: []
+    },
+    {
+      id: 4,
+      school: 'Hong Kong University of Science and Technology',
+      logo: '/logo/HKUST.svg',
+      logoAlt: 'Hong Kong University of Science and Technology logo',
+      degree: 'Exchange Student Programme, School of Business and Management',
+      period: 'Aug 2018 ~ Dec 2018',
       gpa: '',
       courses: []
     }
@@ -75,7 +75,7 @@ const Education = () => {
             </div>
             {edu.courses.length > 0 && (
               <div className="education-courses">
-                <h4>重点课程：</h4>
+                <h4>Key Coursework: </h4>
                 <ul>
                   {edu.courses.map((course, index) => (
                     <li key={index}>{course}</li>
