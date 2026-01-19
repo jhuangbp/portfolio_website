@@ -24,7 +24,7 @@ const Education = () => {
     {
       id: 2,
       school: 'National Taiwan Normal University',
-      logo: '/logo/National_Taiwan_Normal_University.svg',
+      logo: '/logo/National_Taiwan_Normal_University.png',
       logoAlt: 'National Taiwan Normal University logo',
       degree: 'Non-Degree Program',
       period: 'Sep 2023 ~ Dec 2023',
@@ -39,8 +39,8 @@ const Education = () => {
       school: 'Hong Kong University of Science and Technology',
       logo: '/logo/HKUST.svg',
       logoAlt: 'Hong Kong University of Science and Technology logo',
-      degree: 'Exchange Student Programme, Business School',
-      period: '2018 ~ 2019',
+      degree: 'Exchange Student Programme, School of Business and Management',
+      period: 'Aug 2018 ~ Dec 2018',
       gpa: '',
       courses: []
     },
