@@ -6,6 +6,8 @@ const Experience = () => {
     {
       id: 1,
       company: 'CTBC Bank (Largest Bank in Taiwan)',
+      logo: '/logo/ctbc_bank.png',
+      logoAlt: 'CTBC Bank logo',
       position: 'Retail Credit Risk Analyst',
       period: 'Jul 2020 – May 2023',
       location: 'Taipei City, Taiwan',
@@ -18,6 +20,8 @@ const Experience = () => {
     {
       id: 2,
       company: 'Taipei Fubon Commercial Bank',
+      logo: '/logo/fubon-bank.jpg',
+      logoAlt: 'Taipei Fubon Commercial Bank logo',
       position: 'Institutional Credit Risk Analyst',
       period: 'Jul 2019 – Jun 2020',
       location: 'Taipei City, Taiwan',
@@ -29,6 +33,8 @@ const Experience = () => {
     {
       id: 3,
       company: 'E.Sun Commercial Bank',
+      logo: '/logo/E-Sun-logo.jpg',
+      logoAlt: 'E.Sun Commercial Bank logo',
       position: 'Credit Card Marketing Intern',
       period: 'Jul 2018 – Aug 2018',
       location: 'Taipei City, Taiwan',
@@ -48,8 +54,11 @@ const Experience = () => {
             <div className="experience-marker"></div>
             <div className="experience-content">
               <div className="experience-header">
-                <h3 className="experience-position">{exp.position}</h3>
-                <span className="experience-company">{exp.company}</span>
+                <img className="experience-logo" src={exp.logo} alt={exp.logoAlt} />
+                <div className="experience-header-text">
+                  <h3 className="experience-position">{exp.position}</h3>
+                  <span className="experience-company">{exp.company}</span>
+                </div>
               </div>
               <div className="experience-meta">
                 <span className="experience-period">{exp.period}</span>
@@ -69,4 +78,3 @@ const Experience = () => {
 }
 
 export default Experience
-

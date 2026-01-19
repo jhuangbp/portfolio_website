@@ -6,6 +6,8 @@ const Education = () => {
     {
       id: 1,
       school: 'Boston University, Questrom School of Business',
+      logo: '/logo/Boston_University_seal.png',
+      logoAlt: 'Boston University seal',
       degree: 'M.S. in Business Analytics',
       period: 'Aug 2024 ~ Jan 2026',
       gpa: 'GPA: 3.58 / 4.00',
@@ -22,6 +24,8 @@ const Education = () => {
     {
       id: 2,
       school: 'National Taiwan University',
+      logo: '/logo/National_Taiwan_University.png',
+      logoAlt: 'National Taiwan University logo',
       degree: 'B.A. in Economics, Minor in Political Science',
       period: 'Aug 2014 ~ Jan 2019',
       gpa: '',
@@ -35,8 +39,13 @@ const Education = () => {
       <div className="education-container">
         {education.map((edu) => (
           <div key={edu.id} className="education-card">
-            <h3 className="education-degree">{edu.degree}</h3>
-            <div className="education-school">{edu.school}</div>
+            <div className="education-header">
+              <img className="education-logo" src={edu.logo} alt={edu.logoAlt} />
+              <div>
+                <h3 className="education-degree">{edu.degree}</h3>
+                <div className="education-school">{edu.school}</div>
+              </div>
+            </div>
             <div className="education-meta">
               <span>{edu.period}</span>
               {edu.gpa && <span>{edu.gpa}</span>}
