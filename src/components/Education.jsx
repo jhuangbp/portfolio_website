@@ -23,6 +23,29 @@ const Education = () => {
     },
     {
       id: 2,
+      school: 'National Taiwan Normal University',
+      logo: '/logo/National_Taiwan_Normal_University.svg',
+      logoAlt: 'National Taiwan Normal University logo',
+      degree: 'Non-Degree Program',
+      period: 'Sep 2023 ~ Dec 2023',
+      gpa: '',
+      courses: [
+        'Big Data Programming (Python Programming)',
+        'Theory of Probability'
+      ]
+    },
+    {
+      id: 3,
+      school: 'Hong Kong University of Science and Technology',
+      logo: '/logo/HKUST.svg',
+      logoAlt: 'Hong Kong University of Science and Technology logo',
+      degree: 'Exchange Student Programme, Business School',
+      period: '2018 ~ 2019',
+      gpa: '',
+      courses: []
+    },
+    {
+      id: 4,
       school: 'National Taiwan University',
       logo: '/logo/National_Taiwan_University.png',
       logoAlt: 'National Taiwan University logo',
