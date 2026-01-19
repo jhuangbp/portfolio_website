@@ -40,7 +40,7 @@ const Projects = () => {
     {
       id: 3,
       name: 'U.S. Military Base Slot Machine Revenue Explorer',
-      description: 'The U.S. military has publicly released several PDFs containing revenue, location, and other data related to slot machines for Fiscal Years 2020 through 2024. We supported MuckRock, a nonprofit collaborative news organization that assists the public in filing government information requests, by cleaning and analyzing these datasets.',
+      description: 'The U.S. military has publicly released data on internal slot machine revenue, locations, and related metrics for the past five fiscal years. We supported MuckRock, a nonprofit investigative journalism organization, by cleaning and analyzing these datasets.',
       role: 'Built an automated data extraction pipeline to parse complex tabular data from unstructured PDF reports into clean, analysis-ready structured datasets using Python.',
       impact: 'Parsed and structured 203 pages of borderless, irregular PDF tables in 3 minutes, reducing manual data processing time from days to minutes.',
       tech: ['Python', 'SQL', 'Machine Learning', 'Tableau'],
