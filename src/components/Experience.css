@@ -49,7 +49,22 @@
 }
 
 .experience-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   margin-bottom: 0.5rem;
+}
+
+.experience-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.experience-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .experience-position {
@@ -95,6 +110,15 @@
 }
 
 @media (max-width: 768px) {
+  .experience-header {
+    align-items: flex-start;
+  }
+
+  .experience-logo {
+    width: 56px;
+    height: 56px;
+  }
+
   .experience-timeline {
     padding-left: 1.5rem;
   }
@@ -112,4 +136,3 @@
     gap: 0.25rem;
   }
 }
-
