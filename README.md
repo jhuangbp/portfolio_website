@@ -91,14 +91,13 @@ npm run preview
 - `JyunRu_Huang_Resume.pdf` - 简历PDF
 - `JyunRu_Huang_Headshot.jpg` - 个人照片
 
-这些文件会自动在构建时复制到 `public/docs/` 目录。
+这些文件直接放在 `docs/` 目录中提供给网站使用。
 
 ## 项目结构
 
 ```
 portfolio_website/
-├── public/
-│   └── docs/           # 静态资源（简历、照片）
+├── docs/               # 静态资源（简历、照片）
 ├── src/
 │   ├── components/     # React组件
 │   │   ├── Navbar.jsx
