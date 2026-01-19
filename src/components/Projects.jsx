@@ -41,8 +41,8 @@ const Projects = () => {
       id: 3,
       name: 'U.S. Military Base Slot Machine Revenue Explorer',
       description: '一句话描述：这个项目解决了什么问题/为什么重要',
-      role: '我在这个项目中负责了数据分析和模型构建工作',
-      impact: '成果：提升效率XX%、准确率XX%、节省XX小时',
+      role: 'Built an automated data extraction pipeline to parse complex tabular data from unstructured PDF reports into clean, analysis-ready structured datasets using Python.',
+      impact: 'Parsed and structured 203 pages of borderless, irregular PDF tables in 3 minutes, reducing manual data processing time from days to minutes.',
       tech: ['Python', 'SQL', 'Machine Learning', 'Tableau'],
       links: {
         datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
