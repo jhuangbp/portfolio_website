@@ -22,7 +22,7 @@ const Navbar = () => {
   }
 
   const downloadCV = () => {
-    window.open('/docs/JyunRu_Huang_Resume.pdf', '_blank')
+    window.open('/JyunRu_Huang_Resume.pdf', '_blank')
   }
 
   return (

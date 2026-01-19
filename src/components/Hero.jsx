@@ -10,7 +10,7 @@ const Hero = () => {
   }
 
   const downloadCV = () => {
-    window.open('/docs/JyunRu_Huang_Resume.pdf', '_blank')
+    window.open('/JyunRu_Huang_Resume.pdf', '_blank')
   }
 
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-image-wrapper">
             <img 
-              src="/docs/JyunRu_Huang_Headshot.jpg" 
+              src="/JyunRu_Huang_Headshot.jpg" 
               alt="JyunRu Huang" 
               className="hero-image"
             />
@@ -72,4 +72,3 @@ const Hero = () => {
 }
 
 export default Hero
-
