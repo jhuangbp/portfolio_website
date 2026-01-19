@@ -1,21 +1,9 @@
 services:
-  - type: web
+  - type: static
     name: portfolio-website
     env: node
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    staticPublishPath: dist
     envVars:
       - key: NODE_VERSION
         value: 18.18.0
-  - type: web
-    name: military-slots-explorer
-    env: docker
-    plan: free
-    region: oregon
-    autoDeploy: true
-    rootDir: datasette_deploy
-    dockerfilePath: ./Dockerfile
-    healthCheckPath: /
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"

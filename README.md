@@ -57,18 +57,18 @@ npm run build
 npm run preview
 ```
 
-## 部署到 Render
+## 部署到 Render（Static Site）
 
 1. 将代码推送到 GitHub 仓库
-2. 在 [Render](https://render.com) 创建新的 Web Service
+2. 在 [Render](https://render.com) 创建新的 Static Site
 3. 连接你的 GitHub 仓库
-4. 设置构建和启动命令：
+4. 设置构建和发布目录：
    - Build Command: `npm install && npm run build`
-   - Start Command: `npm run preview -- --host 0.0.0.0 --port $PORT`
+   - Publish Directory: `dist`
 5. 选择 Node 环境
 6. 点击 Deploy
 
-或者使用 `render.yaml` 配置文件自动部署。
+或使用仓库内的 `render.yaml` 进行自动部署。
 
 ## 自定义内容
 
