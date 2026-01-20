@@ -67,6 +67,9 @@
 .education-courses ul {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2rem;
 }
 
 .education-courses ul li {
@@ -97,5 +100,9 @@
   .education-meta {
     flex-direction: column;
     gap: 0.25rem;
+  }
+
+  .education-courses ul {
+    grid-template-columns: 1fr;
   }
 }
