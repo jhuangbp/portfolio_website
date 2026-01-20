@@ -75,7 +75,7 @@ const Education = () => {
             </div>
             {edu.courses.length > 0 && (
               <div className="education-courses">
-                <h4>Key Coursework: </h4>
+                <h4>Coursework: </h4>
                 <ul>
                   {edu.courses.map((course, index) => (
                     <li key={index}>{course}</li>
