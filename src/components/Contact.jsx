@@ -31,7 +31,7 @@ const Contact = () => {
       <h2 className="section-title">Get In Touch</h2>
       <div className="contact-container">
         <div className="contact-info">
-          <h3>联系方式</h3>
+          <h3>Contact Information</h3>
           <div className="contact-details">
             <div className="contact-item">
               <strong>Email:</strong>
