@@ -28,7 +28,7 @@ const Education = () => {
       logoAlt: 'National Taiwan Normal University logo',
       degree: 'Non-Degree Program',
       period: 'Sep 2023 ~ Dec 2023',
-      gpa: '',
+      gpa: 'GPA: 3.65 / 4.30',
       courses: [
         'Big Data Programming (Python Programming)',
         'Theory of Probability'
