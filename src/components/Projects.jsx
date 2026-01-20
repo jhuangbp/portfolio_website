@@ -86,7 +86,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  📄 View Presentation
+                  Presentation Slide
                 </a>
               )}
 
@@ -97,7 +97,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  📝 Read Article
+                  Read Article
                 </a>
               )}
 
@@ -119,7 +119,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  📦 Raw Data
+                  Raw Data
                 </a>
               )}
 
@@ -141,7 +141,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  🔎 View Datasette Visualization
+                  Datasette Visualization
                 </a>
               )}
             </div>
