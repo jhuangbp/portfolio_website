@@ -46,10 +46,10 @@ const Education = () => {
     },
     {
       id: 4,
-      school: 'Hong Kong University of Science and Technology',
+      school: 'Hong Kong University of Science and Technology, School of Business and Management',
       logo: '/logo/HKUST.svg',
       logoAlt: 'Hong Kong University of Science and Technology logo',
-      degree: 'Exchange Student Programme, School of Business and Management',
+      degree: 'Exchange Student Programme',
       period: 'Aug 2018 ~ Dec 2018',
       gpa: '',
       courses: []
