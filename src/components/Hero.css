@@ -75,6 +75,10 @@
   white-space: nowrap;
 }
 
+.hero-description-line {
+  display: block;
+}
+
 .hero-buttons {
   display: flex;
   gap: 1rem;
