@@ -66,7 +66,7 @@ const Projects = () => {
             <p className="project-role">{project.role}</p>
 
             <div className="project-impact">
-              <strong>成果：</strong>
+              <strong>Achievement: </strong>
               {project.impact}
             </div>
 
@@ -141,7 +141,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  Datasette Visualization
+                  Interactive Web Visualization
                 </a>
               )}
             </div>
