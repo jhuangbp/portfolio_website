@@ -28,13 +28,13 @@ const Hero = () => {
           <div className="hero-text">
             <h1 className="hero-title">
               <span className="hero-name">JyunRu Huang</span>
-              <span className="hero-subtitle">MSBA @ BU | Data & Risk Analytics</span>
+              <span className="hero-subtitle">BU MSBA | Credit Risk Analyst @ CTBC Bank</span>
             </h1>
 
             <p className="hero-description">
-              3+ 年银行信用风险建模经验，擅长用Python/SAS筛选关键特征并提升模型判别力。
-              近期在医疗分析竞赛中以XGBoost和SHAP进入Top 50，持续深化机器学习与商业洞察结合。
-              寻找数据分析、商业分析或风控相关机会。
+              3+ years of banking credit risk modeling experience
+              Academic training in machine learning and deep learning using Python, SQL, PySpark, TensorFlow, and PyTorch
+              Seeking opportunities in data analytics, business analytics, or risk management
             </p>
             
             <div className="hero-buttons">
