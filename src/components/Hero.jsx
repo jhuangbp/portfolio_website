@@ -34,7 +34,7 @@ const Hero = () => {
             <p className="hero-description">
               <span className="hero-description-line">3+ years of banking credit risk modeling experience</span>
               <span className="hero-description-line">
-                Academic training in machine learning and deep learning using Python, SQL, PySpark, TensorFlow, and PyTorch
+                Formal training in analytics, machine learning, and deep learning
               </span>
               <span className="hero-description-line">
                 Seeking opportunities in data analytics, business analytics, or risk management
