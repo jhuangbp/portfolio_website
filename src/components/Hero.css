@@ -64,7 +64,15 @@
   font-size: 1.125rem;
   line-height: 1.8;
   opacity: 0.95;
-  max-width: 600px;
+  max-width: 720px;
+}
+
+.hero-description > span {
+  display: block;
+}
+
+.hero-description-nowrap {
+  white-space: nowrap;
 }
 
 .hero-description-line {
