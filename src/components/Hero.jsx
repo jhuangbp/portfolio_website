@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="hero-text">
             <h1 className="hero-title">
               <span className="hero-name">JyunRu Huang</span>
-              <span className="hero-subtitle">BU MSBA | Credit Risk Analyst @ CTBC Bank</span>
+              <span className="hero-subtitle">Boston University MSBA | Credit Risk Analyst @ CTBC Bank</span>
             </h1>
 
             <p className="hero-description">
