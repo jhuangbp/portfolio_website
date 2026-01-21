@@ -97,7 +97,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  Read Article
+                  Report
                 </a>
               )}
 
