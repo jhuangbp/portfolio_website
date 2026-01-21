@@ -59,7 +59,7 @@ const Contact = () => {
             </div>
             <div className="contact-item">
               <strong>Location:</strong>
-              <span>Boston, MA</span>
+              <span>Boston, Massachusetts</span>
             </div>
           </div>
         </div>
