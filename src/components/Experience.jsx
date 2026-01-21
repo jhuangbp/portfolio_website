@@ -33,7 +33,7 @@ const Experience = () => {
     {
       id: 3,
       company: 'E.Sun Commercial Bank',
-      logo: '/logo/E-Sun-logo.jpg',
+      logo: '/logo/E-Sun-logo.jpg.png',
       logoAlt: 'E.Sun Commercial Bank logo',
       position: 'Credit Card Marketing Intern',
       period: 'Jul 2018 – Aug 2018',
