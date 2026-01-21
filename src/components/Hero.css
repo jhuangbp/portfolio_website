@@ -64,7 +64,15 @@
   font-size: 1.125rem;
   line-height: 1.8;
   opacity: 0.95;
-  max-width: 600px;
+  max-width: 720px;
+}
+
+.hero-description-line {
+  display: block;
+}
+
+.hero-description-nowrap {
+  white-space: nowrap;
 }
 
 .hero-buttons {
@@ -154,4 +162,3 @@
     height: 200px;
   }
 }
-
