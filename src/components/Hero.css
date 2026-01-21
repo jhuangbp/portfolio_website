@@ -67,7 +67,7 @@
   max-width: 720px;
 }
 
-.hero-description-line {
+.hero-description > span {
   display: block;
 }
 
