@@ -16,7 +16,7 @@ const CaseCompetition = () => {
               />
             </div>
             <div className="case-competition-logo-slot">
-              <img className="case-competition-logo" src="/logo/humana_logo.png" alt="Humana logo" />
+              <img className="case-competition-logo" src="/logo/humana_logo.svg" alt="Humana logo" />
             </div>
           </div>
           <div className="case-competition-content">
