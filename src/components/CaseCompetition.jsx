@@ -11,7 +11,7 @@ const CaseCompetition = () => {
             <div className="case-competition-logo-slot">
               <img
                 className="case-competition-logo"
-                src="/logo/TexasAM_logo.png"
+                src="/logo/Texas_A&M_University_seal.svg"
                 alt="Texas A&M University logo"
               />
             </div>
