@@ -4,7 +4,7 @@ import './CaseCompetition.css'
 const CaseCompetition = () => {
   return (
     <section id="case-competition" className="case-competition">
-      <h2 className="section-title">Humana-Mays 2024 Healthcare Analytics Case Competition</h2>
+      <h2 className="section-title">Case Competition</h2>
       <div className="case-competition-card">
         <div className="case-competition-body">
           <div className="case-competition-logos">
@@ -21,7 +21,7 @@ const CaseCompetition = () => {
           </div>
           <div className="case-competition-content">
             <div className="case-competition-header">
-              <h3>Case Competition</h3>
+              <h3>Humana-Mays 2024 Healthcare Analytics Case Competition</h3>
               <span className="case-competition-period">Sep 2024 – Nov 2024</span>
             </div>
             <p className="case-competition-highlight">
