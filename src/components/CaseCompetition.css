@@ -46,17 +46,17 @@
 }
 
 .case-competition-logo-slot {
-  width: 96px;
-  height: 96px;
-  border: 2px dashed var(--border-color);
-  border-radius: 10px;
+  width: 64px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  color: var(--text-light);
-  background: var(--bg-white);
+}
+
+.case-competition-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .case-competition-content {
