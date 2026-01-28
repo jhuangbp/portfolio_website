@@ -29,7 +29,7 @@ const Projects = () => {
         'Developed two independent XGBoost-based predictive models to estimate ICU inflow from the emergency department within 12 hours and ICU outflow via 72-hour readmission risk after ICU discharge.',
       impact:
         'Achieved predictive performance with AUCs of 0.96 for ICU inflow model and 0.72 for ICU outflow model, outperforming comparable models reported in prior literature.',
-      tech: ['Python', 'Machine Learning', 'Healthcare', 'Hospital', 'MIMIC-IV'],
+      tech: ['Healthcare Analytics', 'Python', 'Scikit-Learn', 'XGBoost', 'NumPy', 'Pandas', 'MIMIC-IV'],
       links: {
         presentation: '/HealthcareProject_Final%20Presentation.pdf',
         report: '/HealthcareProject_Final%20Report.pdf',
