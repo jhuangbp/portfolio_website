@@ -28,9 +28,11 @@ const CaseCompetition = () => {
               Placed in the Top 50 (Round 2) and AUC scored in the Top 10 among 200+ teams
             </p>
             <ul className="case-competition-bullets">
+                            <li>
+                A national healthcare analytics competition hosted by Humana (NYSE: HUM) and Texas A&M University, bringing together over 900 master’s students from 74 universities and more than 200 teams nationwide.
+              </li>
               <li>
-                Identified “unengaged” Humana members (those lacking a preventive PCP visit) and proposed
-                data-driven strategies to increase visit rates.
+                The competition focused on developing data-driven models to identify Medicare members least likely to visit their Primary Care Providers (PCPs) within a year, and on proposing actionable strategies to increase PCP engagement and improve overall health outcomes.
               </li>
               <li>
                 Engineered and selected features across 14 datasets (500+ variables), building an optimized
