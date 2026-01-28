@@ -12,7 +12,7 @@ const Projects = () => {
         'Implemented and compared multiple neural network architectures by extracting text and image features using MPNet, ConvNeXt V2, and DINOv2, with Residual MLP and FT-Transformer applied at the final inference stage.',
       impact:
         'Achieved an average prediction error within ±0.6 IMDb rating points on the validation set, demonstrating the effectiveness of deep learning for movie rating prediction.',
-      tech: ['Python', 'PyTorch', 'Deep Learning', 'Media & Entertainment', 'Movie'],
+      tech: ['Python', 'PyTorch', 'Deep Learning', 'Convolutional neural network', 'Autoencoder (VAE)','Transformer'],
       links: {
         article:
           'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
