@@ -41,8 +41,8 @@ const Projects = () => {
       id: 3,
       name: 'U.S. Military Base Slot Machine Revenue Explorer',
       description: 'The U.S. military has publicly released data on internal slot machine revenue, locations, and related metrics for the past five fiscal years. We supported MuckRock, a nonprofit investigative journalism organization, by cleaning and analyzing these datasets.',
-      role: 'Built a layout-aware, rule-based data extraction pipeline to parse borderless PDF tables into clean, analysis-ready datasets using Python.',
-      impact: 'Parsed and structured 203 pages of borderless, irregular PDF tables in 3 minutes, reducing manual data processing time from days to minutes.',
+      role: 'Built a layout-aware, rule-based data extraction pipeline in Python to parse borderless, irregular PDF tables into clean, analysis-ready datasets.',
+      impact: 'The pipeline processed a 203-page PDF in under 3 minutes, reducing manual data processing time from days to minutes. Parsed results were deployed to a SQLite-backed interactive web dashboard, enabling users to explore analytics anytime, anywhere.',
       tech: ['Python', 'SQL', 'Data Visualization', 'Website Deployment', 'PDF Data Extraction'],
       links: {
         datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
