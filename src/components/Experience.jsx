@@ -5,7 +5,7 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: 'CTBC Bank (Largest Bank in Taiwan)',
+      company: 'CTBC Bank (a leading private commercial bank in Taiwan)',
       logo: '/logo/ctbc_bank.png',
       logoAlt: 'CTBC Bank logo',
       position: 'Retail Credit Risk Analyst',
