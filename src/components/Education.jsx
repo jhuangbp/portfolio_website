@@ -6,7 +6,7 @@ const Education = () => {
     {
       id: 1,
       school: 'Boston University, Questrom School of Business',
-      logo: '/logo/Boston_University_seal.png',
+      logo: '/logo/Boston_University.png',
       logoAlt: 'Boston University seal',
       degree: 'M.S. in Business Analytics',
       period: 'Aug 2024 ~ Jan 2026',
