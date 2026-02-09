@@ -16,6 +16,8 @@ const Projects = () => {
       links: {
         article:
           'https://medium.com/@jhuangbp/predicting-movie-rating-from-multimodal-data-a-deep-learning-method-a35f8e85f0e5',
+        tableau:
+          'https://public.tableau.com/app/profile/jyun.ru.huang/viz/Movie_Tableau_17705931201140/Story1?publish=yes',
         github: '#',
         rawData: '#'
       }
@@ -98,6 +100,17 @@ const Projects = () => {
                   className="project-link"
                 >
                   Report
+                </a>
+              )}
+
+              {project.links.tableau && project.links.tableau !== '#' && (
+                <a
+                  href={project.links.tableau}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  Tableau EDA Dashboard
                 </a>
               )}
 
