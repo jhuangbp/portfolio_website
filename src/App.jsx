@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -12,6 +12,8 @@ import Contact from './components/Contact'
 import './App.css'
 
 function App() {
+  const [showBackToTop, setShowBackToTop] = useState(false)
+
   useEffect(() => {
     const datasetteUrl = 'https://ds-701-muckrock-data-liberation-project.onrender.com'
     const controller = new AbortController()
@@ -22,7 +24,14 @@ function App() {
       signal: controller.signal
     }).catch(() => {})
 
-    return () => controller.abort()
+    const handleScroll = () => setShowBackToTop(window.scrollY > 420)
+    window.addEventListener('scroll', handleScroll)
+    handleScroll()
+
+    return () => {
+      controller.abort()
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   return (
@@ -37,6 +46,13 @@ function App() {
       <Skills />
       <Certificates />
       <Contact />
+      <button
+        className={`back-to-top ${showBackToTop ? 'visible' : ''}`}
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        aria-label="Back to top"
+      >
+        ↑
+      </button>
     </div>
   )
 }
