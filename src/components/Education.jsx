@@ -42,7 +42,10 @@ const Education = () => {
       degree: 'B.A. in Economics, Minor in Political Science',
       period: 'Aug 2014 ~ Jan 2019',
       gpa: '',
-      courses: []
+      courses: [
+        'Introduction to Design Thinking',
+        'Mathematics for Management'
+      ]
     },
     {
       id: 4,
@@ -52,7 +55,7 @@ const Education = () => {
       degree: 'Exchange Student Programme',
       period: 'Aug 2018 ~ Dec 2018',
       gpa: '',
-      courses: []
+      courses: ['Operations Management']
     }
   ]
 
