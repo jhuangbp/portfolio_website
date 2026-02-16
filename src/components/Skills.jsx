@@ -13,11 +13,11 @@ const Skills = () => {
     },
     {
       category: 'Visualization',
-      skills: ['Tableau']
+      skills: ['Tableau', 'Power BI']
     },
     {
       category: 'Cloud',
-      skills: ['Google Cloud Platform', 'Git']
+      skills: ['Google Cloud Platform', 'Snowflake']
     }
   ]
 
