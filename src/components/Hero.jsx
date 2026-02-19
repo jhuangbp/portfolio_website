@@ -33,11 +33,11 @@ const Hero = () => {
               <span className="hero-badge">Business Analytics</span>
             </div>
 
-            <p className="hero-description">
-              <span className="hero-description-line">3+ years of banking credit risk modeling experience</span>
-              <span className="hero-description-line">Formal training in analytics, machine learning, and deep learning</span>
-              <span className="hero-description-line">Seeking opportunities in data analytics, business analytics, or risk management</span>
-            </p>
+            <div className="hero-description">
+  <p>3+ years of banking credit risk modeling experience</p>
+  <p>Formal training in analytics, machine learning, and deep learning</p>
+  <p>Seeking opportunities in data analytics, business analytics, or risk management</p>
+</div>
 
             <div className="hero-buttons">
               <button className="btn btn-primary" onClick={downloadCV}>Download CV</button>
