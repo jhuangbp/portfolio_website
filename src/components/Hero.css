@@ -70,6 +70,14 @@
   color: rgba(255, 255, 255, 0.92);
 }
 
+.hero-description p {
+  margin: 0;
+}
+
+.hero-description p + p {
+  margin-top: 0.4rem;
+}
+
 .hero-buttons {
   display: flex;
   gap: 0.75rem;
