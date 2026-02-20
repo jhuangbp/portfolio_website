@@ -48,7 +48,7 @@ const Projects = () => {
       tech: ['Python', 'SQL', 'Data Visualization', 'Website Deployment', 'PDF Data Extraction'],
       links: {
         datasette: 'https://ds-701-muckrock-data-liberation-project.onrender.com',
-        github: 'https://github.com/BU-Spark/ds-muckrock-liberation',
+        github: 'https://github.com/jhuangbp/muckrock-liberation',
         report: '/Muckrock%20Final%20Report.pdf',
         rawData: 'https://www.data-liberation-project.org/datasets/dod-army-slot-machines/'
       }
