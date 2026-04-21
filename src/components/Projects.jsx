@@ -7,11 +7,11 @@ const Projects = () => {
       id: 1,
       name: 'Predicting Movie Ratings from Multimodal Data',
       description:
-        'Built a multimodal deep learning framework to predict IMDb movie ratings by integrating structured metadata, text summaries, and poster images.',
+        'Consolidated 4,800+ films across nearly 40 years from three film databases and built a multi-page interactive Tableau dashboard with dimensional filters, trend lines, and distribution analysis.',
       role:
-        'Implemented and compared multiple neural network architectures by extracting text and image features using MPNet, ConvNeXt V2, and DINOv2, with Residual MLP and FT-Transformer applied at the final inference stage.',
+        'Extended EDA findings on studio release strategies in seasonality, budget allocation, and runtime positioning into a multimodal deep learning framework built in PyTorch and trained on NVIDIA A100 GPU.',
       impact:
-        'Achieved an average prediction error within ±0.6 IMDb rating points on the validation set, demonstrating the effectiveness of deep learning for movie rating prediction.',
+        'Achieved an average prediction error within ±0.6 IMDb rating points (0–10 scale) on the validation set, denoting a 30% reduction compared to traditional ML baselines that use only structured features (budget, genre, runtime), and demonstrating the effectiveness of deep learning for pre-release rating prediction without audience feedback.',
       tech: ['Python', 'PyTorch', 'Deep Learning', 'Convolutional neural network', 'Autoencoder (VAE)','Transformer'],
       links: {
         article:
