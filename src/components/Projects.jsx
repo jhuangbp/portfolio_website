@@ -24,7 +24,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      name: 'Real-Time Intense Care Unit Demand Forecasting for Hospital Capacity Planning',
+      name: 'Real-Time Intensive Care Unit Demand Forecasting for Hospital Capacity Planning',
       description:
         'Designed a comprehensive Intensive Care Unit (ICU) bed demand forecasting framework using MIMIC-IV data to support hospital ICU capacity and resource planning.',
       role:
@@ -99,7 +99,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  Report
+                  Medium Article
                 </a>
               )}
 
